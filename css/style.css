@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #f1a3a5;
+    --sub-color: #ee8c8f;
+    --white: #fff;
+    --border: .1rem solid rgba(220, 198, 156, .3);
+}
+
+html {
+    font-family: 'Maven Pro', sans-serif;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+*::selection {
+    background-color: #774648;
+    color: var(--main-color);
+}
+
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #a76264;
+    border-radius: 5rem;
+}
+
+body {
+    background-color: #f1a3a5;
+}
+.form {
+    background-color: #ee8c8f;
+    color: #000;
+}
+/* .btn {
+    background-color: #CDACB3;
+    color: #fff;
+    border: 1px solid #6d6875 !important;
+}
+.btn:hover {
+    background-color: #CDACB3;
+    color: #000;
+    border: 1px solid #000 !important;
+} */
+
+
+.cartona {
+    background-color: #ee8c8f;
+}
+
+.credit {
+    padding: 2px;
+    text-align: center;
+    color: #000;
+    background-color: #a76264;
+    font-size: 18px;
+    width: 100%;
+}
+
